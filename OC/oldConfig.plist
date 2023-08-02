@@ -2238,11 +2238,9 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 -vi2c-force-polling</string>
+                    <string>-v keepsyms=1 -vi2c-force-polling</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
-                    <key>prev-lang:kbd</key>
-                    <string>zh-Hans:252</string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -2280,13 +2278,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string></string>
+                <string>C02034501CD00001F</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data></data>
+                <data>qGkyk1KL</data>
                 <key>SpoofVendor</key>
                 <false/>
                 <key>SystemMemoryStatus</key>
@@ -2294,9 +2292,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,3</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>C02D81Z1P3XY</string>
                 <key>SystemUUID</key>
-                <string></string>
+                <string>0C3BF0CF-8B65-4074-85DE-78E9F305F76D</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
