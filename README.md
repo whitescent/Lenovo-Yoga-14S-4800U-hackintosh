@@ -31,7 +31,7 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 
 首先，请先解锁 14s 的 BIOS 高级菜单，具体请参考[这篇文章](https://zhuanlan.zhihu.com/p/184982689)
 
-### 2. 生成用于屏蔽系统盘的 NVME ACPI 文件
+### 2. 生成用于屏蔽系统盘的 NVME ACPI 文件（如果无法顺利启动到安装界面再尝试这个）
 
 > [!Important]
 > 如果你把笔记本自带的海力士硬盘替换了或者你的笔记本的硬盘是 SN730 的话，不需要执行以下的步骤，请去 EFI/OC/ACPI 删除我生成的 SSDT-NVME-DISABLE.aml 文件。
