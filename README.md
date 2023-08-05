@@ -64,6 +64,9 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 
 ![image](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh/assets/31311826/2e198e4e-0923-4689-a4fb-42d4841be4fa)
 
+> [!Note]
+> 一般如果加装新的硬盘，设备管理器 -> 存储控制器中会显示两个`标准 NVM Express 控制器`，请都按照这个方法生成一个 aml 文件，然后一个一个替换尝试进入安装界面。
+
 ### 3. 禁用 XHCI
 
 重启笔记本，按住 F2 进入 BIOS，AMD CBS -> FCH Common Options -> USB Configuration Options.
