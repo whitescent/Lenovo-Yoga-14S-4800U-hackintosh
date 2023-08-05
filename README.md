@@ -72,6 +72,7 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 用 [OC auxiliary tools 工具](https://github.com/ic005k/OCAuxiliaryTools) 打开 config.plist
 
 PI -> 在 SystemProductName 后面点击生成，生成自己的机器码
+
 PI -> 在 ROM 后面点击生成
 
 保存
@@ -83,3 +84,10 @@ PI -> 在 ROM 后面点击生成
 将 XHCI1 Controller enable 从 Auto 改成 Dissabled.
 
 保存，之后重启按 F12 选择 U 盘引导即可。
+
+
+## 其他
+
+如果进入安装界面是其他语言，请在 OC 选择启动项的时候按下空格，选择 reset NVRAM，或者点苹果 Icon 往右数第二个 item，然后更换语言。
+
+如果你有更好的 EFI 文件，例如解决了需要禁用 XHCI 才能进入安装界面/系统等等，欢迎提交 PR 更新这个 repo
