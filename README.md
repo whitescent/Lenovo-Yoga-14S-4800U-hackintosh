@@ -7,23 +7,18 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 |CPU: AMD 4800 U| ✔ |
 |内存| ✔ |
 |显卡 核显 Vega 8| ✔ |
-|网卡 ax 200 | ✔ |
+|网卡 ax200 | ✔ |
 |硬盘 海力士 | ❌（需替换，或者加装新的硬盘另一个 m.2 接口） |
-
 
 |功能 | 状态|
 |----|-----|
 |键盘|✔|
 |触摸板|✔|
+|USB + TypeC 接口|✔|
 |WIFI|✔|
 |核显|✔|
 |蓝牙|❌|
 |睡眠|❌|
-|右侧第二个 USB 接口|❌|
-
-> [!NOTE]
-> 因为本机型需要禁用 XHCI 1 口才能正常进入安装系统，所以无法使用蓝牙、右侧第二个 USB 口。
-
 
 ## 安装步骤
 
@@ -77,14 +72,9 @@ PI -> 在 ROM 后面点击生成
 
 保存
 
-### 4. 禁用 XHCI
+### 4. 安装
 
-重启笔记本，按住 F2 进入 BIOS，AMD CBS -> FCH Common Options -> USB Configuration Options.
-
-将 XHCI1 Controller enable 从 Auto 改成 Dissabled.
-
-保存，之后重启按 F12 选择 U 盘引导即可。
-
+重启笔记本按 F12 选择 U 盘引导即可。
 
 ## 其他
 
