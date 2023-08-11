@@ -559,42 +559,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>USBToolBox.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.1 | USBToolBox.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBToolBox</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>UTBMap.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1 | UTBMap.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
                     <string>V2.3.5</string>
@@ -944,6 +908,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CHID</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>GenericUSBXHCI.kext</string>
+                    <key>Comment</key>
+                    <string>V1.3.0b2</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/GenericUSBXHCI</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -2008,8 +1990,6 @@
                 <true/>
                 <key>DisableIoMapper</key>
                 <false/>
-                <key>DisableIoMapperMapping</key>
-                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -2490,22 +2470,16 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
-                <key>ConsoleFont</key>
-                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
-                <key>GopBurstMode</key>
-                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
-                <key>InitialMode</key>
-                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -2561,8 +2535,6 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
-                <key>PciIo</key>
-                <false/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
@@ -2592,8 +2564,6 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
-                <key>ResizeUsePciRbIo</key>
-                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
