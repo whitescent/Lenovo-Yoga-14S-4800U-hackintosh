@@ -17,7 +17,7 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 |USB + TypeC 接口|✔|
 |WIFI|✔|
 |核显|✔|
-|蓝牙|❌|
+|蓝牙|✔|
 |睡眠|❌|
 
 ## 安装步骤
