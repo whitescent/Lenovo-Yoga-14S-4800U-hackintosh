@@ -28,7 +28,9 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 
 > [!Important]
 > 请注意 BIOS 驱动版本: DMCN32WW（最好使用此版本，虽然最新版本也能解锁 BIOS 高级菜单，但是无法调整显存大小！！设置完会自动重置显存）
+> 
 > 如果你的 BIOS 已经是最新版本，请去官网重新[下载](https://newdriverdl.lenovo.com.cn/newlenovo/alldriversupload/73444/BIOS-DMCN32WW.exe)此版本的驱动
+> 
 > 在回退 BIOS 版本之前，你需要先在 BIOS 中，将 bios back flash 启用，否则无法降级
 
 ### 2. 生成用于屏蔽系统盘的 NVME ACPI 文件（如果无法顺利启动到安装界面再尝试这个）
