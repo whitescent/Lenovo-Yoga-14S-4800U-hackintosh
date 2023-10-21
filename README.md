@@ -26,6 +26,11 @@ Yoga14s 4800U macOS ventura 版本的 EFI 文件
 
 首先，请先解锁 14s 的 BIOS 高级菜单，具体请参考[这篇文章](https://zhuanlan.zhihu.com/p/184982689)
 
+> [!Important]
+> 请注意 BIOS 驱动版本: DMCN32WW（最好使用此版本，虽然最新版本也能解锁 BIOS 高级菜单，但是无法调整显存大小！！设置完会自动重置显存）
+> 如果你的 BIOS 已经是最新版本，请去官网重新[下载](https://newdriverdl.lenovo.com.cn/newlenovo/alldriversupload/73444/BIOS-DMCN32WW.exe)此版本的驱动
+> 在回退 BIOS 版本之前，你需要先在 BIOS 中，将 bios back flash 启用，否则无法降级
+
 ### 2. 生成用于屏蔽系统盘的 NVME ACPI 文件（如果无法顺利启动到安装界面再尝试这个）
 
 > [!Important]
@@ -79,10 +84,12 @@ PI -> 在 ROM 后面点击生成
 ## 其他
 
 > [!Note]
-> 此 EFI 可能一开始无法使用触摸板！！！但是重启几次好像会莫名其妙好，暂时还不知道什么原因
+> 此 EFI **可能**一开始无法使用触摸板！！！但是重启几次好像会莫名其妙好，暂时还不知道什么原因
 
 安装完进系统使用的时候，可能会碰到做一些操作就突然卡着，这个可能是显存问题/ NootedRed 驱动问题，按照[这篇文章](https://zhuanlan.zhihu.com/p/184982689)修改显存大小可以暂时解决，建议改到 3G 左右
 
-如果进入安装界面是其他语言，请在 OC 选择启动项的时候按下空格，选择 reset NVRAM，或者点苹果 Icon 往右数第二个 item，然后更换语言。
+如果进入安装界面是其他语言，请在 OC 选择启动项的时候按下空格，选择 reset NVRAM，或者点苹果 Icon 往右数第二个 item，然后更换语言
+
+推荐将显存设置为 3G 以上
 
 如果你有更好的 EFI 文件,欢迎提交 PR 更新这个 repo
